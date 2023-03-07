@@ -24,6 +24,7 @@ const initFileMode = () => {
     process.stdout.write('Error. Value a cannot be 0\n');
     process.exit(1);
   
+  };
 };
 
 const roots = quadraticEquationSolver(...[a, b, c]);
