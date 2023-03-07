@@ -43,6 +43,4 @@ The script will parse the coefficients from the file and output the roots of the
 
 ## Reverted commit
 
-
-
-
+[Link to revert commit](https://github.com/gonnagetbetter/mtsd-lab1/commit/12b3101e6862e8066dce4b74f325fb30b469b136)
