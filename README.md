@@ -7,7 +7,7 @@ There are two mods: interactive and non-interactive (file mode). In interactive 
 ## Requirements
 - Node.js v12.16.1 or higher
 
-##How to install?
+## How to install?
 
 1. Install git and Node.JS 
 ```bash
