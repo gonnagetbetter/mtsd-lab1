@@ -15,11 +15,11 @@ const solver = (a, b, c) => {
   } else if ( discriminant === 0) {
     console.log('Discriminant = 0. There are one root!');
     const x1 = -b / 2 *a;
-    return x1 = ${x1};
+    return 'x1 = ${x1}';
   }
   console.log('There are two roots!');
   const [x1, x2] = getRoots(a, b, discriminant);
-  return x1 = ${x1}\nx2 = ${x2};
+  return 'x1 = ${x1}\nx2 = ${x2}';
 }
 
 const quadraticEquationSolver = (a, b, c ) => {
