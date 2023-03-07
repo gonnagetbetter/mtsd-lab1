@@ -25,9 +25,11 @@ const initFileMode = () => {
     process.exit(1);
   
   };
+  
+  const roots = quadraticEquationSolver(...[a, b, c]);
+  console.log(roots);
+
 };
 
-const roots = quadraticEquationSolver(...[a, b, c]);
-  console.log(roots);
 
 export {initFileMode};
