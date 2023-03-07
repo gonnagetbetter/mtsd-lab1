@@ -22,4 +22,9 @@ const solver = (a, b, c) => {
   return x1 = ${x1}\nx2 = ${x2};
 }
 
+const quadraticEquationSolver = (a, b, c ) => {
+  console.log(Equation is: ${a} x^2 + (${b}) x + (${c}) = 0);
+  return solver(a, b, c);
+};
+
 export {quadraticEquationSolver};
