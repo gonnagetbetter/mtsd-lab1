@@ -38,11 +38,11 @@ const getArgs = async (qID = 0) => {
     const value = parseFloat(answer);
     const qIndex = questions.indexOf(question);
     if (!isNumber(value)) {
-      process.stdout.write('Error. Expected a valid real number, got ${answer} instead\n');
-      return startPoll(qIndex);
+      process.stdout.write(`Error. Expected a valid real number, got ${answer} instead\n`);
+      process.exit(0);
     } else if (qIndex === 0 && value === 0) {
       process.stdout.write('Error. Value a cannot be 0\n');
-      return startPoll(qIndex);
+      process.exit(0);
     }
     args.push(value);
   }
